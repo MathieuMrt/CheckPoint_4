@@ -1,0 +1,36 @@
+.pathError_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-family: Verdana;
+
+  button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+
+  .pathError {
+    background-color: rgb(0, 0, 101);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+  }
+}

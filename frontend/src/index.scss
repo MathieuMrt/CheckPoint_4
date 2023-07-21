@@ -1,1 +1,6 @@
 // importez ici vos fichiers SCSS
+@import "./pages/Todo/todo.scss";
+@import "./pages/TodoForm/todoForm.scss";
+@import "./pages/TodoWrapper/todoWrapper.scss";
+@import "./pages/Login/login.scss";
+@import "./pages/Protected/pathError.scss";

@@ -1,0 +1,49 @@
+.Todo {
+  display: flex;
+  align-items: center;
+  background-color: rgb(130, 59, 228);
+  width: 80%;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+
+  p {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    font-family: Verdana;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .edit-input {
+    width: 80%;
+    height: 80%;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: lightgray;
+    opacity: 0.5;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    gap: 15px;
+
+    .edit-icons {
+      cursor: pointer;
+    }
+
+    .delete-icons {
+      cursor: pointer;
+    }
+  }
+}

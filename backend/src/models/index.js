@@ -29,10 +29,14 @@ pool.getConnection().catch(() => {
 
 const models = {};
 
-const ItemManager = require("./ItemManager");
+const TodoListManager = require("./TodoListManager");
+const UserManager = require("./UserManager");
 
-models.item = new ItemManager();
-models.item.setDatabase(pool);
+models.task = new TodoListManager();
+models.user = new UserManager();
+
+models.task.setDatabase(pool);
+models.user.setDatabase(pool);
 
 // bonus: use a proxy to personalize error message,
 // when asking for a non existing model
